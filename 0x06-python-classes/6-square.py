@@ -14,11 +14,11 @@ class Square:
 
     @property
     def size(self):
-        return(self.__size)
+        return (self.__size)
 
     @property
     def position(self):
-        return(self.__position)
+        return (self.__position)
 
     @size.setter
     def size(self, value):
@@ -39,7 +39,7 @@ class Square:
             self.__position = value
 
     def area(self):
-        return(self.__size**2)
+        return (self.__size**2)
 
     def my_print(self):
         if self.__size is 0:
