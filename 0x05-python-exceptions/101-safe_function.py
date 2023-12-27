@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def safe_function(fct, *args):
     import sys
-    strmen ="Exception: "
+    strmen = "Exception: "
     try:
         result = fct(*args)  # passing arguments to function
         return result
