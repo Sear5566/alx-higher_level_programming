@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-const pross = require('pross');
-const arg = pross.argv[2];
+const process = require('process');
+const arg = process.argv[2];
 
 if (arg) {
   console.log(arg);
