@@ -1,11 +1,11 @@
 #!/usr/bin/node
 
 const process = require('process');
-const arg = process.argv[2];
+const ag = process.argv[2];
 
-if (arg) {
-  console.log(arg);
-}
-else {
+if (ag) {
+  console.log(ag);
+        }
+else  {
   console.log('No argument');
-}
+      };
