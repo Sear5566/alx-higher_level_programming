@@ -5,7 +5,7 @@ const ag = process.argv[2];
 
 if (ag) {
   console.log(ag);
-        }
-else  {
+}
+else {
   console.log('No argument');
-      };
+}
